@@ -3,21 +3,21 @@ public:
     vector<vector<string>> partition(string s) {
         vector<string> partitions;
         vector<vector<string>> res;
-        AllPossibleResult(s, res, partitions, 0);
+        AllPossibleResult(s, res, partitions);
         return res;
     }
 
-    void AllPossibleResult(string s, vector<vector<string>>& res, vector<string>& partitions, int idx) {
-        if (idx == s.length()) {
+    void AllPossibleResult(string s, vector<vector<string>>& res, vector<string>& partitions) {
+        if (s.length() == 0) {
             res.push_back(partitions);
             return;
         }
 
-        for (int i = idx; i < s.length(); i++) {
-            string left_part = s.substr(idx, i - idx + 1); // fix: substr from idx, not 0
+        for (int i = 0; i < s.length(); i++) {
+            string left_part = s.substr(0, i+1);
             if (isPalindrome(left_part)) {
                 partitions.push_back(left_part);
-                AllPossibleResult(s, res, partitions, i + 1);
+                AllPossibleResult(s.substr(i+1), res, partitions);
                 partitions.pop_back();
             }
         }
