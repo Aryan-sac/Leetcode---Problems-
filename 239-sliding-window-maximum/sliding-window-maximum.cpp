@@ -8,7 +8,7 @@ public:
         for(int i=0; i<n; i++){
 
             // checking All Elements stored in dequeue of current window or NOT
-            while(dq.size()>0 && dq.front()<=(i-k))
+            if(dq.size()>0 && dq.front()<=(i-k))
                 dq.pop_front();
             
             // Storing max element at front of dequeue
@@ -16,7 +16,7 @@ public:
                 dq.pop_back();
             
             dq.push_back(i);
-            
+
             if (i >= k - 1)
                 res.push_back(nums[dq.front()]);
         }
