@@ -18,7 +18,7 @@ public:
             if(map.find(val) != map.end())
                 count += map[val];
 
-            if(map.find(PS[j]) == map.end())
+            if(map.find(PS[j]) == map.end())        // NOT EXIST THEN NEW PAIR CREATED
                 map[PS[j]] = 0;
 
             map[PS[j]]++;
