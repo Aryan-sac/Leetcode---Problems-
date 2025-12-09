@@ -12,7 +12,7 @@ public:
         unordered_map<int, int>mp;
         for(int j=0; j<n; j++){
             if(ps[j]%k==0) count++;
-            int rem = ((ps[j] % k) + k) % k; // normalize remainder
+            int rem = ((ps[j]%k)+k)%k;
             count += mp[rem];
             mp[rem]++;
 
