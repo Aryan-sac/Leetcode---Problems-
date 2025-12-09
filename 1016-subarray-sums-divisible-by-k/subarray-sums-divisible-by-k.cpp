@@ -4,12 +4,16 @@ public:
         int n = nums.size(), count=0;
         
         int ps=0;
-
         unordered_map<int, int>mp;
+        mp[0] = 1;
+
         for(int j=0; j<n; j++){
             ps += nums[j];
-            if(ps%k==0) count++;
-            int rem = ((ps%k)+k)%k;
+
+            int rem = ps%k;
+
+            if(rem<0) rem = rem+k;    // handle negative index
+
             count += mp[rem];
             mp[rem]++;
 
