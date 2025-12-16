@@ -1,10 +1,8 @@
 class Solution {
 public:
     string removeOccurrences(string s, string part) {
-        size_t pos = s.find(part);
-        while(pos != string::npos) {
-            s.erase(pos, part.length());
-            pos = s.find(part);
+        while(s.find(part)<s.length()) {
+            s.erase(s.find(part),part.length());
         }
         return s;
     }
