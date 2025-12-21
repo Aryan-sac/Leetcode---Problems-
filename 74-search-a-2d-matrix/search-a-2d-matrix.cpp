@@ -18,7 +18,7 @@ public:
 
     // Search a Particular row where target element found
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
-        int st=0, end= matrix.size()-1, mid;
+        int st=0, end= matrix.size()-1, mid;           // matrix.size() count number of rows
         while(st <= end){
             mid = st + (end-st)/2;
             if(target >= matrix[mid][0] && target <= matrix[mid][matrix[0].size()-1] ){
