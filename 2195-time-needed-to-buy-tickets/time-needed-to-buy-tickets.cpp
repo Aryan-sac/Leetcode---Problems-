@@ -10,18 +10,18 @@ public:
         }
         
         while(tickets[k]>0) {
-            int idx = q.front();
+            int val = q.front();
             q.pop();
             
-            tickets[idx]--;
+            tickets[val]--;
             time++;
             
-            if(idx == k && tickets[idx] == 0) {
+            if(val == k && tickets[val] == 0) {
                 return time;
             }
             
-            if(tickets[idx] > 0) {
-                q.push(idx);
+            if(tickets[val] > 0) {
+                q.push(val);
             }
         }
         return time;
