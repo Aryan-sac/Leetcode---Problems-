@@ -22,7 +22,7 @@ queue<int>q1;
                 q1.push(q2.front());
                 q2.pop();
             }
-        }
+            }
     }
     
     int pop() {
