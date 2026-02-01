@@ -14,10 +14,10 @@ public:
     }
     
     bool contains(int key) {
-        if(set.find(key)==set.end())
-            return false;
-        else
+        if(set.find(key)!=set.end())
             return true;
+        else
+            return false;
     }
 };
 
