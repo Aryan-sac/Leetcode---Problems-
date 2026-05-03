@@ -1,28 +1,20 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        int n = s.length();
-        string result= "";
-
-        // Reverse Whole String         --->  eulb si yks eht
-        reverse(s.begin(),s.end());
-
-        // Reverse Each word and store in result string
-        for(int i=0 ; i<n; i++){
-            string word = "";
-            while((i<n) && (s[i] != ' ')){
-                word += s[i];
+        reverse(s.begin(), s.end());
+        string ans;
+        for(int i=0; i<s.size(); i++){
+            if(s[i] == ' ') continue;
+            string st = "";
+            while(i<s.size() && s[i]!=' ')
+            {
+                st += s[i];
                 i++;
             }
-            reverse(word.begin(), word.end());
-            if(word.length() > 0)
-            {
-                if(result == "")
-                    result += word;
-                else
-                    result += " " + word;
-            }
+            reverse(st.begin(), st.end());
+            ans += st +" ";
         }
-        return result;
+        if(!ans.empty()) ans.pop_back(); // last space remove
+        return ans;
     }
 };
