@@ -15,7 +15,11 @@ public:
                 if(arr[j][0] <= end)
                     end = max(end, arr[j][1]);
                 else
+                {
+                    i=j;
+                    i--;
                     break;
+                }
             }
             res.push_back({st, end});            
         }
