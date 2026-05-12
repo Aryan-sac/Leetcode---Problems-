@@ -16,8 +16,7 @@ public:
                     end = max(end, arr[j][1]);
                 else
                 {
-                    i=j;
-                    i--;
+                    i=j-1;
                     break;
                 }
             }
