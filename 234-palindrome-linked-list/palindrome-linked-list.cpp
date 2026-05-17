@@ -19,25 +19,21 @@ public:
             fast = fast->next->next;
         }
         
-        // Step 2: Reverse second half
-        ListNode* prev = NULL;
-        ListNode* curr = slow;
-        while (curr != NULL) {
+        // reverse right half
+        ListNode *prev=NULL, *curr=slow;
+        while(curr != NULL){
             ListNode* nextNode = curr->next;
             curr->next = prev;
             prev = curr;
             curr = nextNode;
         }
 
-        // Step 3: Compare first half and reversed second half
-        ListNode* left = head;
-        ListNode* right = prev; // head of reversed second half
-        while (right != NULL) {
-            if (left->val != right->val) return false;
-            left = left->next;
-            right = right->next;
+        ListNode *l=head, *r=prev;
+        while(l!=NULL && r!=NULL){
+            if(l->val != r->val) return false;
+            l=l->next;
+            r=r->next;
         }
-
         return true;
     }
 };
