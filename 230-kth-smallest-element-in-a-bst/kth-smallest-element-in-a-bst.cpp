@@ -11,16 +11,21 @@
  */
 class Solution {
 public:
-    vector<int>preorder;
-    void calc(TreeNode* root){
-        if(root == NULL)
-            return;
-        calc(root->left);
-        preorder.push_back(root->val);
-        calc(root->right);
-    }
+    int order = 0;
     int kthSmallest(TreeNode* root, int k) {
-        calc(root);
-        return preorder[k-1];
+        if(!root) return -1;
+        if(root->left){
+            int leftAns = kthSmallest(root->left, k);
+            if(leftAns != -1)
+                return leftAns;
+        }
+        if(order+1 == k) return root->val;
+        order = order+1;
+        if(root->right){
+            int rightAns = kthSmallest(root->right, k);
+            if(rightAns != -1)
+                return rightAns;
+        }
+        return -1;
     }
 };
