@@ -9,14 +9,6 @@ public:
         for(int i=0; i<s.size(); i++)
         {
             if(freq[s[i]-'a'] == 1)
-            {
-                ch = s[i];
-                break;
-            }
-        }
-        for(int i=0; i<s.size(); i++)
-        {
-            if(s[i] == ch)
                 return i;
         }
         return -1;
