@@ -1,34 +1,33 @@
 class Solution {
 public:
-    vector<vector<string>> partition(string s) {
-        vector<string> partitions;
-        vector<vector<string>> res;
-        AllPossibleResult(s, res, partitions);
-        return res;
+    vector<vector<string>>res;
+    bool isPal(string s, int st, int end){
+        while(st<=end){
+            if(s[st++] != s[end--])
+                return false;
+        }
+        return true;
     }
+    void helper(string s, int idx, vector<string>ans){
 
-    void AllPossibleResult(string s, vector<vector<string>>& res, vector<string>& partitions) {
-        if (s.length() == 0) {
-            res.push_back(partitions);
+        if(idx == s.length())
+        {
+            res.push_back(ans);
             return;
         }
 
-        for (int i = 0; i < s.length(); i++) {
-            string left_part = s.substr(0, i+1);
-            if (isPalindrome(left_part)) {
-                partitions.push_back(left_part);
-                AllPossibleResult(s.substr(i+1), res, partitions);
-                partitions.pop_back();
+        for(int i=idx; i<s.length(); i++){
+            if(isPal(s, idx, i)){
+                ans.push_back(s.substr(idx, i-idx+1));
+                helper(s, i+1, ans);
+                ans.pop_back();
             }
         }
     }
-
-    bool isPalindrome(string str) {
-        int r = str.length() - 1, l = 0;
-        while (l < r) {
-            if (str[l] != str[r]) return false;
-            l++; r--;
-        }
-        return true;
+    vector<vector<string>> partition(string s) {
+       vector<string>ans;
+       helper(s, 0, ans);
+       return res;
+     
     }
 };
