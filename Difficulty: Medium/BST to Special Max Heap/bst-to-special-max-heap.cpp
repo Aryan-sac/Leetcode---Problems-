@@ -1,0 +1,44 @@
+/* Binary Tree Node Structure
+class Node {
+    public:
+        int data;
+        Node* left;
+        Node* right;
+
+    Node(int val) {
+        data = val;
+        left = nullptr;
+        right = nullptr;
+    }
+};
+*/
+
+class Solution {
+  public:
+    void Inorder(Node* root, vector<int>& in){
+        if(root == NULL)
+            return;
+        Inorder(root->left, in);
+        in.push_back(root->data);
+        Inorder(root->right, in);
+    }
+    void cnvrtHeap(Node* root,vector<int>& in, int &idx){
+        if(root == NULL)
+            return;
+        
+        cnvrtHeap(root->left, in, idx);
+        cnvrtHeap(root->right, in, idx);
+        root->data = in[idx];
+        idx++;
+    }
+    void convertToMaxHeap(Node* root) {
+        // code here
+        // finding Inorder Traversal
+        vector<int>in;
+        Inorder(root, in);
+
+        // change/push elements according to post order wise
+        int idx = 0;
+        cnvrtHeap(root, in, idx);
+    }
+};
