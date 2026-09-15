@@ -3,10 +3,10 @@ public:
     bool dfs(int s, int d, vector<vector<int>>&adj, vector<int>&visited){
         if(s == d)
             return true;
-        visited[s]=1;
+        // visited[s]=1;
         for(int i=0; i<adj[s].size(); i++){
             if(visited[adj[s][i]] == 0){
-                // visited[adj[s][i]] = 1;
+                visited[adj[s][i]] = 1;
                 if(dfs(adj[s][i], d, adj, visited))
                     return true;
             }
