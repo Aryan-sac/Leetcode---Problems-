@@ -2,41 +2,38 @@ class Solution {
   public:
     vector<double> getMedian(vector<int> &arr) {
         // code here
-        priority_queue<int>max;
-        priority_queue<int, vector<int>, greater<int>>min;
-        
+        priority_queue<int>left;
+        priority_queue<int, vector<int>, greater<int>>right;
         vector<double>ans;
-        for(int i=0; i<arr.size(); i++){
-            if(max.empty())
-            {
-                max.push(arr[i]);
-                ans.push_back(arr[i]);
-                continue;
-            }
+        left.push(arr[0]);
+        ans.push_back(arr[0]);
+        for(int i=1; i<arr.size(); i++){
                 
-            if(arr[i] > max.top())
-                min.push(arr[i]);
+            if(arr[i] > left.top())
+                right.push(arr[i]);
+            
             else
-                max.push(arr[i]);
-                
-            // Adjust the element in correct HEap
-            if(max.size() > min.size()+1){
-                min.push(max.top());
-                max.pop();
+                left.push(arr[i]);
+            
+            // Adjusting the left(max) and right(min)  heap;
+            
+            if(left.size() > right.size()+1){
+                right.push(left.top());
+                left.pop();
             }
-            if(min.size() > max.size())
+            if(right.size() > left.size())
             {
-                max.push(min.top());
-                min.pop();
+                left.push(right.top());
+                right.pop();
             }
             
-            // Store answer
-            if(max.size() == min.size())
-                ans.push_back((double)(max.top()+min.top())/2);
+            // insering elements in answer array
+            
+            if(left.size() == right.size())
+                ans.push_back((double)(left.top()+right.top())/2);
             else
-                ans.push_back(max.top());
+                ans.push_back(left.top());
         }
-        
         return ans;
     }
 };
