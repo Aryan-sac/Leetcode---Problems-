@@ -11,8 +11,8 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | Platform | Total Solved | Easy | Medium | Hard |
 | --- | --- | --- | --- | --- |
 | LeetCode | 4 | 2 | 2 | 0 |
-| GeeksforGeeks | 10 | 1 | 8 | 1 |
-| **Total** | **14** | **3** | **10** | **1** |
+| GeeksforGeeks | 11 | 1 | 9 | 1 |
+| **Total** | **15** | **3** | **11** | **1** |
 
 ## Solved Problems
 
@@ -26,10 +26,11 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | 6 | [A Valid Order to Complete Tasks](https://practice.geeksforgeeks.org/problems/course-schedule/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_AValidOrderToCompleteTasks.cpp) |
 | 7 | [Bellman Ford](https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_BellmanFord.cpp) |
 | 8 | [Dijkstra Algorithm](https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_DijkstraAlgorithm.cpp) |
-| 9 | [Prerequisite Tasks](https://practice.geeksforgeeks.org/problems/prerequisite-tasks/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_PrerequisiteTasks.cpp) |
-| 10 | [Replace O's with X's](https://practice.geeksforgeeks.org/problems/replace-os-with-xs0052/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ReplaceOsWithXs.cpp) |
-| 11 | [Rotten Oranges](https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_RottenOranges.cpp) |
-| 12 | [Shortest Path in Directed Acyclic Graph](https://practice.geeksforgeeks.org/problems/shortest-path-in-directed-acyclic-graph/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestPathInDirectedAcyclicGraph.cpp) |
-| 13 | [Shortest Path in Unweighted Graph](https://practice.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestPathInUnweightedGraph.cpp) |
-| 14 | [Alien Dictionary](https://practice.geeksforgeeks.org/problems/alien-dictionary/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_AlienDictionary.cpp) |
+| 9 | [Floyd Warshall](https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_FloydWarshall.cpp) |
+| 10 | [Prerequisite Tasks](https://practice.geeksforgeeks.org/problems/prerequisite-tasks/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_PrerequisiteTasks.cpp) |
+| 11 | [Replace O's with X's](https://practice.geeksforgeeks.org/problems/replace-os-with-xs0052/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ReplaceOsWithXs.cpp) |
+| 12 | [Rotten Oranges](https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_RottenOranges.cpp) |
+| 13 | [Shortest Path in Directed Acyclic Graph](https://practice.geeksforgeeks.org/problems/shortest-path-in-directed-acyclic-graph/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestPathInDirectedAcyclicGraph.cpp) |
+| 14 | [Shortest Path in Unweighted Graph](https://practice.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestPathInUnweightedGraph.cpp) |
+| 15 | [Alien Dictionary](https://practice.geeksforgeeks.org/problems/alien-dictionary/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_AlienDictionary.cpp) |
 <!-- COMMITDSA_END -->
