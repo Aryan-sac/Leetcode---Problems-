@@ -11,8 +11,8 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | Platform | Total Solved | Easy | Medium | Hard |
 | --- | --- | --- | --- | --- |
 | LeetCode | 4 | 2 | 2 | 0 |
-| GeeksforGeeks | 13 | 1 | 11 | 1 |
-| **Total** | **17** | **3** | **13** | **1** |
+| GeeksforGeeks | 14 | 1 | 12 | 1 |
+| **Total** | **18** | **3** | **14** | **1** |
 
 ## Solved Problems
 
@@ -25,14 +25,15 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | 5 | [Nth Fibonacci Number](https://practice.geeksforgeeks.org/problems/nth-fibonacci-number1335/1) | GeeksforGeeks | Easy | C_CPP | [Code](./GFG/Easy/0_NthFibonacciNumber.cpp) |
 | 6 | [A Valid Order to Complete Tasks](https://practice.geeksforgeeks.org/problems/course-schedule/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_AValidOrderToCompleteTasks.cpp) |
 | 7 | [Bellman Ford](https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_BellmanFord.cpp) |
-| 8 | [Dijkstra Algorithm](https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_DijkstraAlgorithm.cpp) |
-| 9 | [Floyd Warshall](https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_FloydWarshall.cpp) |
-| 10 | [Min Steps by Knight](https://practice.geeksforgeeks.org/problems/steps-by-knight5927/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MinStepsByKnight.cpp) |
-| 11 | [Prerequisite Tasks](https://practice.geeksforgeeks.org/problems/prerequisite-tasks/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_PrerequisiteTasks.cpp) |
-| 12 | [Replace O's with X's](https://practice.geeksforgeeks.org/problems/replace-os-with-xs0052/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ReplaceOsWithXs.cpp) |
-| 13 | [Rotten Oranges](https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_RottenOranges.cpp) |
-| 14 | [Shortest Distance in Binary Maze](https://practice.geeksforgeeks.org/problems/shortest-path-in-a-binary-maze-1655453161/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestDistanceInBinaryMaze.cpp) |
-| 15 | [Shortest Path in Directed Acyclic Graph](https://practice.geeksforgeeks.org/problems/shortest-path-in-directed-acyclic-graph/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestPathInDirectedAcyclicGraph.cpp) |
-| 16 | [Shortest Path in Unweighted Graph](https://practice.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestPathInUnweightedGraph.cpp) |
-| 17 | [Alien Dictionary](https://practice.geeksforgeeks.org/problems/alien-dictionary/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_AlienDictionary.cpp) |
+| 8 | [Check for Path in a 2D Grid with Obstacles](https://practice.geeksforgeeks.org/problems/find-whether-path-exist5238/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_CheckForPathInA2DGridWithObstacles.cpp) |
+| 9 | [Dijkstra Algorithm](https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_DijkstraAlgorithm.cpp) |
+| 10 | [Floyd Warshall](https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_FloydWarshall.cpp) |
+| 11 | [Min Steps by Knight](https://practice.geeksforgeeks.org/problems/steps-by-knight5927/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MinStepsByKnight.cpp) |
+| 12 | [Prerequisite Tasks](https://practice.geeksforgeeks.org/problems/prerequisite-tasks/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_PrerequisiteTasks.cpp) |
+| 13 | [Replace O's with X's](https://practice.geeksforgeeks.org/problems/replace-os-with-xs0052/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ReplaceOsWithXs.cpp) |
+| 14 | [Rotten Oranges](https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_RottenOranges.cpp) |
+| 15 | [Shortest Distance in Binary Maze](https://practice.geeksforgeeks.org/problems/shortest-path-in-a-binary-maze-1655453161/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestDistanceInBinaryMaze.cpp) |
+| 16 | [Shortest Path in Directed Acyclic Graph](https://practice.geeksforgeeks.org/problems/shortest-path-in-directed-acyclic-graph/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestPathInDirectedAcyclicGraph.cpp) |
+| 17 | [Shortest Path in Unweighted Graph](https://practice.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestPathInUnweightedGraph.cpp) |
+| 18 | [Alien Dictionary](https://practice.geeksforgeeks.org/problems/alien-dictionary/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_AlienDictionary.cpp) |
 <!-- COMMITDSA_END -->
