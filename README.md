@@ -11,8 +11,8 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | Platform | Total Solved | Easy | Medium | Hard |
 | --- | --- | --- | --- | --- |
 | LeetCode | 4 | 2 | 2 | 0 |
-| GeeksforGeeks | 15 | 1 | 13 | 1 |
-| **Total** | **19** | **3** | **15** | **1** |
+| GeeksforGeeks | 16 | 1 | 13 | 2 |
+| **Total** | **20** | **3** | **15** | **2** |
 
 ## Solved Problems
 
@@ -37,4 +37,5 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | 17 | [Shortest Path in Directed Acyclic Graph](https://practice.geeksforgeeks.org/problems/shortest-path-in-directed-acyclic-graph/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestPathInDirectedAcyclicGraph.cpp) |
 | 18 | [Shortest Path in Unweighted Graph](https://practice.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestPathInUnweightedGraph.cpp) |
 | 19 | [Alien Dictionary](https://practice.geeksforgeeks.org/problems/alien-dictionary/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_AlienDictionary.cpp) |
+| 20 | [Circle of Strings](https://practice.geeksforgeeks.org/problems/circle-of-strings4530/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_CircleOfStrings.cpp) |
 <!-- COMMITDSA_END -->
