@@ -11,8 +11,8 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | Platform | Total Solved | Easy | Medium | Hard |
 | --- | --- | --- | --- | --- |
 | LeetCode | 6 | 3 | 3 | 0 |
-| GeeksforGeeks | 16 | 1 | 13 | 2 |
-| **Total** | **22** | **4** | **16** | **2** |
+| GeeksforGeeks | 17 | 1 | 14 | 2 |
+| **Total** | **23** | **4** | **17** | **2** |
 
 ## Solved Problems
 
@@ -32,12 +32,13 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | 12 | [Euler Circuit and Path](https://practice.geeksforgeeks.org/problems/euler-circuit-and-path/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_EulerCircuitAndPath.cpp) |
 | 13 | [Floyd Warshall](https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_FloydWarshall.cpp) |
 | 14 | [Min Steps by Knight](https://practice.geeksforgeeks.org/problems/steps-by-knight5927/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MinStepsByKnight.cpp) |
-| 15 | [Prerequisite Tasks](https://practice.geeksforgeeks.org/problems/prerequisite-tasks/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_PrerequisiteTasks.cpp) |
-| 16 | [Replace O's with X's](https://practice.geeksforgeeks.org/problems/replace-os-with-xs0052/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ReplaceOsWithXs.cpp) |
-| 17 | [Rotten Oranges](https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_RottenOranges.cpp) |
-| 18 | [Shortest Distance in Binary Maze](https://practice.geeksforgeeks.org/problems/shortest-path-in-a-binary-maze-1655453161/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestDistanceInBinaryMaze.cpp) |
-| 19 | [Shortest Path in Directed Acyclic Graph](https://practice.geeksforgeeks.org/problems/shortest-path-in-directed-acyclic-graph/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestPathInDirectedAcyclicGraph.cpp) |
-| 20 | [Shortest Path in Unweighted Graph](https://practice.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestPathInUnweightedGraph.cpp) |
-| 21 | [Alien Dictionary](https://practice.geeksforgeeks.org/problems/alien-dictionary/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_AlienDictionary.cpp) |
-| 22 | [Circle of Strings](https://practice.geeksforgeeks.org/problems/circle-of-strings4530/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_CircleOfStrings.cpp) |
+| 15 | [Minimum Spanning Tree](https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MinimumSpanningTree.cpp) |
+| 16 | [Prerequisite Tasks](https://practice.geeksforgeeks.org/problems/prerequisite-tasks/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_PrerequisiteTasks.cpp) |
+| 17 | [Replace O's with X's](https://practice.geeksforgeeks.org/problems/replace-os-with-xs0052/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ReplaceOsWithXs.cpp) |
+| 18 | [Rotten Oranges](https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_RottenOranges.cpp) |
+| 19 | [Shortest Distance in Binary Maze](https://practice.geeksforgeeks.org/problems/shortest-path-in-a-binary-maze-1655453161/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestDistanceInBinaryMaze.cpp) |
+| 20 | [Shortest Path in Directed Acyclic Graph](https://practice.geeksforgeeks.org/problems/shortest-path-in-directed-acyclic-graph/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestPathInDirectedAcyclicGraph.cpp) |
+| 21 | [Shortest Path in Unweighted Graph](https://practice.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestPathInUnweightedGraph.cpp) |
+| 22 | [Alien Dictionary](https://practice.geeksforgeeks.org/problems/alien-dictionary/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_AlienDictionary.cpp) |
+| 23 | [Circle of Strings](https://practice.geeksforgeeks.org/problems/circle-of-strings4530/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_CircleOfStrings.cpp) |
 <!-- COMMITDSA_END -->
