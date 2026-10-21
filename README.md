@@ -10,33 +10,34 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 
 | Platform | Total Solved | Easy | Medium | Hard |
 | --- | --- | --- | --- | --- |
-| LeetCode | 5 | 2 | 3 | 0 |
+| LeetCode | 6 | 3 | 3 | 0 |
 | GeeksforGeeks | 16 | 1 | 13 | 2 |
-| **Total** | **21** | **3** | **16** | **2** |
+| **Total** | **22** | **4** | **16** | **2** |
 
 ## Solved Problems
 
 | # | Problem | Platform | Difficulty | Language | Code |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | LeetCode | Easy | CPP | [Code](./LeetCode/Easy/70_ClimbingStairs.cpp) |
-| 2 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | LeetCode | Easy | CPP | [Code](./LeetCode/Easy/746_MinCostClimbingStairs.cpp) |
-| 3 | [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | LeetCode | Medium | CPP | [Code](./LeetCode/Medium/130_SurroundedRegions.cpp) |
-| 4 | [198. House Robber](https://leetcode.com/problems/house-robber/) | LeetCode | Medium | CPP | [Code](./LeetCode/Medium/198_HouseRobber.cpp) |
-| 5 | [785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/) | LeetCode | Medium | CPP | [Code](./LeetCode/Medium/785_IsGraphBipartite.cpp) |
-| 6 | [Nth Fibonacci Number](https://practice.geeksforgeeks.org/problems/nth-fibonacci-number1335/1) | GeeksforGeeks | Easy | C_CPP | [Code](./GFG/Easy/0_NthFibonacciNumber.cpp) |
-| 7 | [A Valid Order to Complete Tasks](https://practice.geeksforgeeks.org/problems/course-schedule/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_AValidOrderToCompleteTasks.cpp) |
-| 8 | [Bellman Ford](https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_BellmanFord.cpp) |
-| 9 | [Check for Path in a 2D Grid with Obstacles](https://practice.geeksforgeeks.org/problems/find-whether-path-exist5238/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_CheckForPathInA2DGridWithObstacles.cpp) |
-| 10 | [Dijkstra Algorithm](https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_DijkstraAlgorithm.cpp) |
-| 11 | [Euler Circuit and Path](https://practice.geeksforgeeks.org/problems/euler-circuit-and-path/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_EulerCircuitAndPath.cpp) |
-| 12 | [Floyd Warshall](https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_FloydWarshall.cpp) |
-| 13 | [Min Steps by Knight](https://practice.geeksforgeeks.org/problems/steps-by-knight5927/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MinStepsByKnight.cpp) |
-| 14 | [Prerequisite Tasks](https://practice.geeksforgeeks.org/problems/prerequisite-tasks/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_PrerequisiteTasks.cpp) |
-| 15 | [Replace O's with X's](https://practice.geeksforgeeks.org/problems/replace-os-with-xs0052/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ReplaceOsWithXs.cpp) |
-| 16 | [Rotten Oranges](https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_RottenOranges.cpp) |
-| 17 | [Shortest Distance in Binary Maze](https://practice.geeksforgeeks.org/problems/shortest-path-in-a-binary-maze-1655453161/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestDistanceInBinaryMaze.cpp) |
-| 18 | [Shortest Path in Directed Acyclic Graph](https://practice.geeksforgeeks.org/problems/shortest-path-in-directed-acyclic-graph/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestPathInDirectedAcyclicGraph.cpp) |
-| 19 | [Shortest Path in Unweighted Graph](https://practice.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestPathInUnweightedGraph.cpp) |
-| 20 | [Alien Dictionary](https://practice.geeksforgeeks.org/problems/alien-dictionary/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_AlienDictionary.cpp) |
-| 21 | [Circle of Strings](https://practice.geeksforgeeks.org/problems/circle-of-strings4530/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_CircleOfStrings.cpp) |
+| 1 | [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | LeetCode | Easy | CPP | [Code](./LeetCode/Easy/1137_NThTribonacciNumber.cpp) |
+| 2 | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | LeetCode | Easy | CPP | [Code](./LeetCode/Easy/70_ClimbingStairs.cpp) |
+| 3 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | LeetCode | Easy | CPP | [Code](./LeetCode/Easy/746_MinCostClimbingStairs.cpp) |
+| 4 | [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | LeetCode | Medium | CPP | [Code](./LeetCode/Medium/130_SurroundedRegions.cpp) |
+| 5 | [198. House Robber](https://leetcode.com/problems/house-robber/) | LeetCode | Medium | CPP | [Code](./LeetCode/Medium/198_HouseRobber.cpp) |
+| 6 | [785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/) | LeetCode | Medium | CPP | [Code](./LeetCode/Medium/785_IsGraphBipartite.cpp) |
+| 7 | [Nth Fibonacci Number](https://practice.geeksforgeeks.org/problems/nth-fibonacci-number1335/1) | GeeksforGeeks | Easy | C_CPP | [Code](./GFG/Easy/0_NthFibonacciNumber.cpp) |
+| 8 | [A Valid Order to Complete Tasks](https://practice.geeksforgeeks.org/problems/course-schedule/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_AValidOrderToCompleteTasks.cpp) |
+| 9 | [Bellman Ford](https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_BellmanFord.cpp) |
+| 10 | [Check for Path in a 2D Grid with Obstacles](https://practice.geeksforgeeks.org/problems/find-whether-path-exist5238/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_CheckForPathInA2DGridWithObstacles.cpp) |
+| 11 | [Dijkstra Algorithm](https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_DijkstraAlgorithm.cpp) |
+| 12 | [Euler Circuit and Path](https://practice.geeksforgeeks.org/problems/euler-circuit-and-path/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_EulerCircuitAndPath.cpp) |
+| 13 | [Floyd Warshall](https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_FloydWarshall.cpp) |
+| 14 | [Min Steps by Knight](https://practice.geeksforgeeks.org/problems/steps-by-knight5927/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MinStepsByKnight.cpp) |
+| 15 | [Prerequisite Tasks](https://practice.geeksforgeeks.org/problems/prerequisite-tasks/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_PrerequisiteTasks.cpp) |
+| 16 | [Replace O's with X's](https://practice.geeksforgeeks.org/problems/replace-os-with-xs0052/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ReplaceOsWithXs.cpp) |
+| 17 | [Rotten Oranges](https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_RottenOranges.cpp) |
+| 18 | [Shortest Distance in Binary Maze](https://practice.geeksforgeeks.org/problems/shortest-path-in-a-binary-maze-1655453161/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestDistanceInBinaryMaze.cpp) |
+| 19 | [Shortest Path in Directed Acyclic Graph](https://practice.geeksforgeeks.org/problems/shortest-path-in-directed-acyclic-graph/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestPathInDirectedAcyclicGraph.cpp) |
+| 20 | [Shortest Path in Unweighted Graph](https://practice.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ShortestPathInUnweightedGraph.cpp) |
+| 21 | [Alien Dictionary](https://practice.geeksforgeeks.org/problems/alien-dictionary/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_AlienDictionary.cpp) |
+| 22 | [Circle of Strings](https://practice.geeksforgeeks.org/problems/circle-of-strings4530/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_CircleOfStrings.cpp) |
 <!-- COMMITDSA_END -->
