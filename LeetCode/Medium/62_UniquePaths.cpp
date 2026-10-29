@@ -14,11 +14,13 @@ public:
         if(i>=m || j>=n)
             return 0;
 
-        if((i==m-1 && j==n-1))
+        if((i==m-1 && j==n-1) || dp[i][j]==1)
         {   
-            // dp[i][j]=1; 
+            dp[i][j]=1; 
             return 1;
         }
+        else
+            dp[i][j] = 1;
 
         int right = path(i, j+1, m, n, dp);
         int down = path(i+1, j, m, n, dp);
